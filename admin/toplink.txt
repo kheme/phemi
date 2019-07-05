@@ -1,0 +1,26 @@
+function toplink() {
+?>
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+<tr>
+<td rowspan="2">&nbsp;</td>
+<td width="50 aligncenter> <a href<?address?>adminindex.php onmouseoutoff() onmouseoveronn(this.title)> <img alteBSta - Home Page border0 height16 src<?address?>adminimageshome_home.gif width16><a><td> <td width50 aligncenter> <a href<?address?>adminoptions.php onmouseoutoff() onmouseoveronn(this.title)> <img alteBSta - Options &amp";$b1=""; settings:address?>adminimagesoptions.gif width16><a><td> <td width50 aligncenter> <a onmouseoveronn(this.title) onmouseoutoff() href<?address?>adminindex.php?logout> <img altEnd Your eBSta Session border0 height9 src<?address?>adminimageslogout.gif width16><a><td> <tr> <tr> <td width50 aligncenter> <? if$_SERVER['PHP_SELF']adminindex.php$c1ttop} else {$c1="top";$b1="<b>";}
+if ($_SERVER['PHP_SELF']=="/admin/options.php") {$c2="ttop";$b2=""} else {$c2="top";$b2="<b>";}
+if ($_SERVER['PHP_SELF']=="/admin/help.php") {$c3="ttop";$b3=""} else {$c3="top";$b3="<b>";}
+?>
+<a class="<?=$c1;?>" href="<?=address?>/admin/" title="eBSta - Home Page" onmouseout="off()" onmouseover="onn
+
+(this.title)"><?=$b1;?>Home</b></a></td>
+<td width="50" align="center">
+<?=$b2;?>
+<a class="<?=$c2;?>" href="<?=address?>/admin/options.php" title="eBSta - Options &amp; Settings" onmouseout="off()" 
+
+onmouseover="onn(this.title)">Options</a></b></td>
+<td width="50" align="center">
+<b>
+<a class="top" href="<?=address?>/admin/index.php?logout" title="End Your eBSta Session" onmouseout="off()" 
+
+onmouseover="onn(this.title)">Logout</a></b></td>
+</tr>
+</table>
+<?
+}

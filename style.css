@@ -1,0 +1,11 @@
+body  {font-family:Verdana;font-size:8pt;}
+.button   {font-size:7pt;border:1px solid;padding:2px;}
+.input    {border:1px solid #B0B1B5;color:#666666;font-family:Verdana;font-size:7pt;padding:2px}
+.header   {font-size:8pt;font-weight:bold;background-color:#b0b1b5;padding:5px;}
+h1        {font-family:Arial;font-size:12pt;color:#3e4872;}
+td      {padding:3px;font-size:8pt;}
+a         {text-decoration:none;color:blue;}
+a:link    {text-decoration:none;color:blue;}
+a:hover   {text-decoration:underline;color:#3e4872;}
+a:visited {color:blue;}
+a:visited:hover {color:#3e4872;}
